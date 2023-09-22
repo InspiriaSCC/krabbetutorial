@@ -57,7 +57,6 @@ let minRobot = sprites.create(img`
     . . . . f f b b f f . . . . 
     `, SpriteKind.Player)
 tiles.placeOnRandomTile(minRobot, sprites.castle.tilePath5)
-scene.cameraFollowSprite(minRobot)
 controller.moveSprite(minRobot)
 for (let index = 0; index < 4; index++) {
     robotKrabbe = sprites.create(img`
