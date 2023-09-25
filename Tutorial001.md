@@ -303,7 +303,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 
 ### Steg 6
 Om du tester spillet nå, skjer det ingenting når du klarer å ta igjen en krabberobot.
-For at spillet skal forstå at du vil fjerne krabben, må du dra det ovale feltet der det stå ``||variables:otherSprite||`` i blokken ``||Sprites:on sprite of kind Player overlaps otherSprite of kind Enemy||`` ned til feltet der det står ``||variables:mySprite||`` i blokken ``||sprites:destroy mySprite||``.
+For at spillet skal forstå at du vil fjerne krabben, må du dra det ovale feltet der det står ``||variables:otherSprite||`` i blokken ``||Sprites:on sprite of kind Player overlaps otherSprite of kind Enemy||`` ned til feltet der det står ``||variables:mySprite||`` i blokken ``||sprites:destroy mySprite||``.
 Nå kan du teste spillet igjen. Ser du at krabberobotene blir borte når du klarer å ta dem?
 
 ```blocks
